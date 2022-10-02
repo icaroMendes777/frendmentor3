@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+	<link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+	
+	<script src="https://kit.fontawesome.com/8487c17985.js" crossorigin="anonymous"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
+	
+	<script src="main.js"></script>
+	
+</head>
+<body>
+<div id="content">
+	<header>
+	 <img src="images/logo.svg" alt="logo"> 
+	  <br/>
+	  <br/>
+	 <h1> <span class="grey_text">We are launching </span><b>soon!</b></h1>
+ 
+		
+	 <span id="subscribe">Subscribe and get notified</span>
+	  <br/>
+	</header>
+	
+	
+	<main>
+	<form class="form_notify">
+		
+		<div>
+		 <input type="text" class="email_input" id="email_input"   placeholder="your email address...">
+		 <br/><span id="error_message">Please provide a valid e-mail address</span>
+		</div>
+		
+		<div>
+		 <button class="notify" onclick="checkEmail()" type="button"> <b>Notify Me</b></button >
+		</div>
+	</form>
+
+	<img src="images/illustration-dashboard.png" alt="image page slack">
+	 
+	</main>
+	
+	
+	  <footer>
+		  <div class="wrapper">
+            <a aria-label="Follow us on Facebook" href="#">
+              <i href="#" class="fab fa-facebook-f"></i>
+            </a>
+            <a aria-label="Follow us on Twitter" href="#">
+              <i href="#" class="fab fa-twitter"></i>
+            </a>
+            <a aria-label="Follow us on Instagram" href="#">
+              <i href="#" class="fab fa-instagram"></i>
+            </a>
+          </div>
+		  <br/>
+		<span class="grey_text">&copy; Copyright Ping. All rights reserved.</span>
+		<p class="attribution">
+		  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+		  Coded by <a href="#">Icaro Mendes</a>.
+		</p>
+	  </footer>
+</div>
+</body>
+</html>
